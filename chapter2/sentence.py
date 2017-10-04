@@ -1,22 +1,16 @@
 import turtle
-wn = turtle.Screen()
-wn.bgcolor("lightgreen")
-tess = turtle.Turtle()
-tess.shape("turtle")
-tess.color("blue")
-tess.stamp()
+wn = turtle. Screen()
+owen = turtle.Turtle()
 
-for i in range(12):
-    tess.penup()
-    tess.forward(100)
-    tess.pendown()
-    tess.forward(10)
-    tess.penup()
-    tess.forward(10)
-    tess.stamp()
-    tess.backward(120)
-    tess.left(30)
+def make_square(turt,size, num):
+    for j in range(num):
+         turt.forward(size)
+         turt.left(90)
+         turt.forward(2*size)
+
+wn=turtle.Screen()
+owen=turtle.Turtle()
 
 
 
-
+make_square(owen,20,5)
